@@ -13,11 +13,11 @@ $(window).load(function(){
 
 	hamburger = $('.hamburger');
 
-	/* $(this).on('mousemove', function(e){
+	$(this).on('mousemove', function(e){
 		x = e.pageX;
 		
 		y = e.pageY;
-	}); */
+	});
 
 	$('.hamburger, .menu-inner').on('mouseenter', function(){
 		$(this).parent().addClass('expanded');
